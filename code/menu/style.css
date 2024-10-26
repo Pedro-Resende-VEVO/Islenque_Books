@@ -1,0 +1,446 @@
+body {
+  background-color: lightblue;
+}
+
+/*TODO Header*/
+
+header {
+  display: inline-flex;
+  margin: 0% 10%;
+}
+
+.nav {
+  background-color: gainsboro;
+  opacity: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  justify-content: center;
+}
+
+.part1,
+.part2 {
+  margin: 2%;
+}
+
+#sese {
+  font-size: xx-large;
+}
+
+#pesquisa {
+  display: inline-flex;
+}
+
+#info {
+  margin: 2%;
+}
+
+
+/*TODO Nav*/
+
+nav {
+  display: inline-block;
+  margin: 2% 10%;
+}
+
+.form {
+  width: 30%;
+  text-align: center;
+  background-color: whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  float: left;
+}
+
+.carrosel {
+  width: 48%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: gainsboro;
+  float: right;
+  padding: 1%;
+}
+
+#carro1,
+#carro2,
+#carro3 {
+  min-height: 400px;
+  max-height: 400px;
+  min-width: 700px;
+  max-width: 700px;
+  height: auto;
+  width: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(220, 220, 220, 0.473);
+  height: 20%;
+  border-radius: 10%;
+}
+
+/*TODO Section*/
+
+section {
+  float: left;
+  display: flex;
+  width: 65%;
+}
+
+/*Cartão*/
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-height: 400px;
+  min-height: 300px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: whitesmoke;
+  border-style: solid;
+  overflow: hidden;
+  cursor: pointer;
+  /* white-space: nowrap; */
+}
+
+#infoCard {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+  margin-left: 5%;
+}
+
+#img1,
+#img2,
+#img3,
+#img4,
+#img5,
+#img6 {
+  min-height: 250px;
+  max-height: 250px;
+  height: auto;
+  width: auto;
+}
+
+#title1,
+#title2,
+#title3,
+#title4,
+#title5,
+#title6 {
+  text-align: justify;
+  padding: 5%;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /* fallback */
+  max-height: 35px;
+  /* fallback */
+  -webkit-line-clamp: 2;
+  /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.card button {
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  background-color: #000;
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30%;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+
+/*TODO Aside */
+
+aside {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-family: arial;
+  background-color: whitesmoke;
+  border-style: solid;
+  width: 30%;
+  display: block;
+  cursor: pointer;
+  float: right;
+  border: 2px solid black;
+  text-align: center;
+}
+
+#titleAside {
+  background-color: rgba(220, 220, 220, 0.473);
+}
+
+
+#title7,
+#title8,
+#title9,
+#title10 {
+  display: inline-flex;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  max-height: 32px;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  margin-bottom: 2%;
+}
+
+#img7,
+#img8,
+#img9,
+#img10 {
+  min-height: 100px;
+  max-height: 100px;
+  height: auto;
+  width: auto;
+}
+
+#News {
+  margin-top: 3%;
+  text-align: center;
+  background-color: whitesmoke;
+  border-style: solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 16%;
+  margin-right: 5%;
+}
+
+#titleNews {
+  font-style: italic;
+  background-color: lightsalmon;
+  padding: 1%;
+}
+
+#textNews {
+  margin-bottom: 2%;
+}
+
+
+
+
+/* TODO Rodapé*/
+
+footer {
+  background-color: rgba(220, 220, 220, 0.473);
+  text-align: center;
+  display: inline-flex;
+  padding: 2%;
+  width: 100%;
+}
+
+h5 {
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.metodos img {
+  margin: 3%;
+}
+
+.redes {
+  align-items: center;
+}
+
+.links {
+  text-align: left;
+  padding: 5%;
+  background-color: rgba(146, 146, 146, 0.164);
+  border-radius: 5%;
+}
+
+#creditos {
+  background-color: cadetblue;
+  text-align: center;
+}
+
+#creditos p {
+  margin: 0%;
+}
+
+/*Responsivo*/
+
+@media screen and (max-width: 1840px) and (min-width: 1280px) {
+  .nav {
+    transform: translateX(15%);
+  }
+
+  #info {
+    transform: translateX(15%);
+  }
+
+  #texto {
+    display: inline-block;
+  }
+
+  #painel {
+    width: 46%;
+  }
+}
+
+@media screen and (max-width: 1279px) and (min-width: 993px) {
+  .nav {
+    transform: translateX(10%);
+  }
+
+  #info {
+    transform: translateX(10%);
+  }
+
+  .form {
+    transform: translateX(5%);
+  }
+
+  .carrosel {
+    width: 500px;
+    transform: translateX(30%);
+  }
+
+  .lateral {
+    transform: translateX(20%);
+  }
+
+  #texto {
+    display: inline-block;
+  }
+
+  .lista {
+    width: 40%;
+  }
+
+  #painel {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+  .nav {
+    transform: translateX(60%);
+    display: block;
+    text-align: center;
+    width: 45%;
+  }
+
+  #info {
+    transform: translateX(10%);
+  }
+
+  .carrosel {
+    width: 500px;
+    transform: translateX(10%);
+  }
+
+  .form {
+    transform: translateX(5%);
+  }
+
+  .grid {
+    width: 200%;
+  }
+
+  #texto {
+    display: inline-block;
+  }
+
+  .lista {
+    width: 80%;
+    transform: translateX(10%);
+  }
+
+  #painel {
+    width: 81%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #logo {
+    transform: translateX(80%);
+    width: 130px;
+  }
+
+  #pesquisa {
+    transform: translate(50%, 70%);
+  }
+
+  #sese {
+    transform: translateX(45%);
+  }
+
+  .nav {
+    transform: translateX(130%);
+    display: inline-block;
+  }
+
+  .lista {
+    width: 40%;
+    transform: translateX(0%);
+  }
+
+  #info {
+    transform: translateX(120%);
+
+  }
+
+  header {
+    width: 90%;
+    transform: translateX(0%);
+  }
+
+  .part1 {
+    display: block;
+    width: 100%;
+  }
+
+  /*semi-grid*/
+
+  .semi-grid {
+    display: inline-flex;
+  }
+
+  .form {
+
+    width: 300px;
+    transform: translate(50%, -170%);
+  }
+
+  .carrosel {
+    width: 350px;
+    transform: translate(-30%, -10%);
+  }
+
+  /*grid*/
+
+  .ofc-main {
+    width: 120%;
+  }
+
+  .grid {
+    width: 50%;
+    transform: translateX(30%);
+  }
+
+  .lateral {
+    width: 100%;
+    transform: translateX(45%);
+  }
+
+  #texto {
+    display: block;
+    width: 50%;
+  }
+
+  #painel {
+    width: 202px;
+  }
+}
